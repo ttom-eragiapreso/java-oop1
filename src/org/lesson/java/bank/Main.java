@@ -54,7 +54,6 @@ public class Main {
                                 "Your withdrawal was declined";
                         System.out.println(message);
                     }
-
                 }
             }
         }

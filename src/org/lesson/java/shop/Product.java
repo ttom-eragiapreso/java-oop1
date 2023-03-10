@@ -18,10 +18,11 @@ public class Product {
         Random rnd = new Random();
         code = rnd.nextInt(1, 1001);
     }
-    public Product(String name){
+    public Product(String name, double price){
         Random rnd = new Random();
         code = rnd.nextInt(1, 1001);
         this.name = name;
+        this.price = price;
     }
 
     public String getName() {
@@ -50,6 +51,10 @@ public class Product {
 
     public int getCode() {
         return code;
+    }
+
+    public String getPaddedCode(){
+        return String.format("%08d", code);
     }
 
     public static double getVAT() {

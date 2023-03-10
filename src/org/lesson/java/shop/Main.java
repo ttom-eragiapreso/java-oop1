@@ -9,6 +9,8 @@ public class Main {
         System.out.println(test.getPriceWithVAT());
         System.out.println(test.getPriceWithVAT());
         System.out.println(test.getPriceWithVAT());
-
+        Product anotherTest = new Product("ciao", 10.2);
+        System.out.println(anotherTest);
+        System.out.println(test.getPaddedCode());
     }
 }
