@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddeeef9-ea05-46cc-9a30-9e551ca792ae" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lesson/java/shop/Main.java" afterDir="false" />
+    <list default="true" id="6ddeeef9-ea05-46cc-9a30-9e551ca792ae" name="Changes" comment="Java shop finished without Bonus">
+      <change afterPath="$PROJECT_DIR$/src/org/lesson/java/bank/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/shop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lesson/java/shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lesson/java/shop/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +63,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678453363084</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java shop finished without Bonus">
+      <created>1678455779701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678455779701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Java shop finished without Bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java shop finished without Bonus" />
   </component>
 </project>

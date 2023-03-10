@@ -7,5 +7,8 @@ public class Main {
         test.setName("Prodotto bello");
         test.setDescription("This product is a wonderful test");
         System.out.println(test.getPriceWithVAT());
+        System.out.println(test.getPriceWithVAT());
+        System.out.println(test.getPriceWithVAT());
+
     }
 }

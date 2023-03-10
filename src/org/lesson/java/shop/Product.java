@@ -52,6 +52,10 @@ public class Product {
         return code;
     }
 
+    public static double getVAT() {
+        return VAT;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -66,7 +70,7 @@ public class Product {
 
     public String getPriceWithVAT(){
         DecimalFormat decimalFormat = new DecimalFormat("##.##");
-        return decimalFormat.format(price+= price * VAT);
+        return decimalFormat.format(price * (1 + VAT));
     }
 
     public String getExtendedName(){
